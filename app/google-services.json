@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "106306222438",
+    "firebase_url": "https://smart-weather-station.firebaseio.com",
+    "project_id": "smart-weather-station",
+    "storage_bucket": "smart-weather-station.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106306222438:android:c094659e2fd35127",
+        "android_client_info": {
+          "package_name": "com.example.weatherstation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106306222438-75i7n3p4ukhobmi6nuu90n49udijs2rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weatherstation",
+            "certificate_hash": "c79fc2f633ccf193a1ac15ff3aed6dc5e779c369"
+          }
+        },
+        {
+          "client_id": "106306222438-c4j8ogfpsrdtgtgc8smho5k73erd3flp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRLLGtlIku6wpfRAaRjENIRd7AcHxNZwA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106306222438-c4j8ogfpsrdtgtgc8smho5k73erd3flp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

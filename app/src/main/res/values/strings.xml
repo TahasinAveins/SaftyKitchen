@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WeatherStation</string>
+    <string name="todo">TODO</string>
+    <string name="already_registered_login_me">Already registered. Login Me!</string>
+    <string name="user_name">User Name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="password">password</string>
+    <string name="registration">Registration</string>
+    <string name="temperature">Temperature :</string>
+    <string name="humidity">Humidity :</string>
+    <string name="rain_status">Rain Status :</string>
+    <string name="wind_speed">Wind Speed :</string>
+    <string name="real_time_weather_data">Real Time Weather Data</string>
+    <string name="enter_your_registered_email">Enter your registered email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="not_a_member_get_registered_now">Not a member? Get registered now.</string>
+    <string name="forgot_password_msg">Just enter registered Email Id to sent you password reset instructions.</string>
+    <string name="forgot_password_lvl">Forgot password?</string>
+    <string name="email">Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back"><![CDATA[<< Back]]></string>
+    <string name="sign_out">Sign Out</string>
+
+</resources>
