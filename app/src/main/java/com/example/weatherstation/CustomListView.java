@@ -26,6 +26,7 @@ public class CustomListView extends ArrayAdapter<String> {
         this.humi=humi;
         this.temp=temp;
         this.wind=wind;
+        this.rain=rain;
 
 
     }
