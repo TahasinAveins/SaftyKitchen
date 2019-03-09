@@ -25,5 +25,9 @@
     <string name="last_month">Last Month</string>
     <string name="last_7_days">Last 7 Days</string>
     <string name="report_back"><![CDATA[<<]]></string>
+    <string name="o">o</string>
+    <string name="c">C</string>
+    <string name="parsent">%</string>
+    <string name="km_h">km/h</string>
 
 </resources>
