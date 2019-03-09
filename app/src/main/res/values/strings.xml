@@ -21,5 +21,9 @@
     <string name="reset_password">Reset Password</string>
     <string name="back"><![CDATA[<< Back]]></string>
     <string name="sign_out">Sign Out</string>
+    <string name="report">Report</string>
+    <string name="last_month">Last Month</string>
+    <string name="last_7_days">Last 7 Days</string>
+    <string name="report_back"><![CDATA[<<]]></string>
 
 </resources>

@@ -9,13 +9,13 @@
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="218dp"
         android:layout_marginTop="20dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/weathertitle"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/weathertitle" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -110,12 +110,14 @@
     <Button
         android:id="@+id/btn_signup"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
         android:background="@null"
         android:text="@string/not_a_member_get_registered_now"
         android:textAllCaps="false"
         android:textColor="#000000"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_reset_password"
@@ -124,14 +126,12 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
-        android:layout_height="108dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="117dp"
         android:contentDescription="@string/todo"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_signup"
         app:srcCompat="@drawable/uysys" />
 
 
