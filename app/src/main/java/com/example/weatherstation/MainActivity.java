@@ -31,7 +31,7 @@ import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
 
-    String url_Address = "http://www.weatherstationbd.tk/login.php";
+    String url_Address = "http://iot.uysys.net/app/ws.php";
     String[] hum_ms;
     String[] temp_ms;
     String[] air_ms;
@@ -131,10 +131,10 @@ public class MainActivity extends AppCompatActivity {
 
             for (i=0;i<=ja.length();i++){
                 jo = ja.getJSONObject(i);
-                hum_ms[i] = jo.getString("Temperature");
-                temp_ms[i] = jo.getString("Temperature");
-                air_ms[i] = jo.getString("Temperature");
-                rain_ms[i] = jo.getString("Temperature");
+                hum_ms[i] = jo.getString("humidity");
+                temp_ms[i] = jo.getString("temperature");
+                air_ms[i] = jo.getString("wind_speed");
+                rain_ms[i] = jo.getString("precipitation");
             }
 
         }catch (Exception ex)
