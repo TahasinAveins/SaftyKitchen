@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
     String[] temp_ms;
     String[] air_ms;
     String[] rain_ms;
+    String[] atm_ms;
+    String[] time_ms;
 
     ListView listView;
 
@@ -59,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
         collectData();
 
-        CustomListView customListView = new CustomListView(this,hum_ms,temp_ms,air_ms,rain_ms);
+        CustomListView customListView = new CustomListView(this,hum_ms,temp_ms,air_ms,rain_ms,atm_ms,time_ms);
         listView.setAdapter(customListView);
 
         auth = FirebaseAuth.getInstance();
@@ -128,6 +130,8 @@ public class MainActivity extends AppCompatActivity {
             temp_ms = new String[ja.length()];
             air_ms = new String[ja.length()];
             rain_ms = new String[ja.length()];
+            atm_ms = new String[ja.length()];
+            time_ms = new String[ja.length()];
 
             for (i=0;i<=ja.length();i++){
                 jo = ja.getJSONObject(i);
@@ -135,6 +139,9 @@ public class MainActivity extends AppCompatActivity {
                 temp_ms[i] = jo.getString("temperature");
                 air_ms[i] = jo.getString("wind_speed");
                 rain_ms[i] = jo.getString("precipitation");
+                atm_ms[i] = jo.getString("atmosphere_pressure");
+                time_ms[i] = jo.getString("date_time");
+
             }
 
         }catch (Exception ex)

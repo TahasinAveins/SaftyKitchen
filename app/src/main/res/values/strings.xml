@@ -29,5 +29,8 @@
     <string name="c">C</string>
     <string name="parsent">%</string>
     <string name="km_h">km/h</string>
+    <string name="atmosphere_p">Atmosphere P.:</string>
+    <string name="mbar">mbar</string>
+    <string name="date_time">Date-Time</string>
 
 </resources>
